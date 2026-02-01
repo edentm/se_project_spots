@@ -7,6 +7,7 @@
   <meta author="Eden T.">
   <meta keywords="spots">
   <link rel="stylesheet" href="pages/index.css">
+  <link rel="stylesheet" href="fonts/font.css">
   <link rel="icon" href ="favicon.ico">
   <title>Spots</title>
 
@@ -14,15 +15,77 @@
 <body>
 <div class="page">
     <header class="header">
+      <img src="./images/Logo.svg" alt="Spots logo" class="header__logo">
     </header>
     <main class="content">
-      <h1> test </h1>
       <section class="profile">
+        <img src="images/avatar.jpg" alt="Photo of Bessie Coleman Smiling" class="profile__avatar">
+        <div class = "profile__column">
+        <h1 class ="profile__name"> Bessie Coleman </h1>
+        <p class ="profile__description"> Civil Aviator</p>
+        <button class="profile__edit-button">
+          <img src="images/Pencil.svg" alt="Icon of a pencil"> Edit Profile
+        </button>
+        </div>
+         <button class="profile__add-button">
+          <img src="images/Plus.svg" alt="Icon of a plus sign"> New Post
+        </button>
       </section>
+
       <section class="cards">
+       <ul class="cards__list">
+        <li class="card">
+          <img src="images/1-photo-by-moritz-feldmann-from-pexels.jpg" alt="Photo from inside a cabin looking at the window to a home on a snowy mountain" class="card__image"/>
+          <div class="card__subheader">
+            <h2 class="card__title"> Val Thorens </h2>
+            <button type="button" class="card__like-button"></button>
+        </div>
+        </li>
+        <li class="card">
+          <img src="images/2-photo-by-ceiline-from-pexels.jpg" alt="Photo of a restaurant with a green terrance and outdoor seating" class="card__image">
+
+        <div class="card__subheader">
+            <h2 class="card__title"> Restaurant terrace </h2>
+            <button type="button" class="card__like-button"></button>
+        </div>
+        </li>
+        <li class="card">
+          <img src="images/3-photo-by-tubanur-dogan-from-pexels.jpg" alt="Photo taken from above capturing people sitting in various tables outside" class="card__image">
+
+        <div class="card__subheader">
+            <h2 class="card__title"> An outdoor cafe </h2>
+            <button type="button" class="card__like-button"></button>
+        </div>
+        </li>
+         <li class="card">
+          <img src="images/4-photo-by-maurice-laschet-from-pexels.jpg" alt="Photo of long bridge build over a forest with trees beneath it" class="card__image">
+
+        <div class="card__subheader">
+            <h2 class="card__title"> A very long bridge </h2>
+            <button type="button" class="card__like-button"></button>
+        </div>
+        </li>
+         <li class="card">
+          <img src="images/5-photo-by-van-anh-nguyen-from-pexels.jpg" alt="Long tunnel surrounded by windows where light streams in" class="card__image">
+
+        <div class="card__subheader">
+            <h2 class="card__title"> Tunnel with morning light </h2>
+            <button type="button" class="card__like-button"></button>
+        </div>
+        </li>
+         <li class="card">
+          <img src="images/6-photo-by-moritz-feldmann-from-pexels.jpg" alt=" Photo of a wooden cabin in the snow" class="card__image">
+
+        <div class="card__subheader">
+            <h2 class="card__title"> Mountain house </h2>
+            <button type="button" class="card__like-button"></button>
+        </div>
+        </li>
+       </ul>
       </section>
     </main>
     <footer class="footer">
+      <p> 2023 © Spots </p>
       </footer>
 </div>
 </body>

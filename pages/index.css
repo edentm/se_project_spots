@@ -1,4 +1,17 @@
 @import "../vendor/normalize.css";
 @import "../vendor/fonts.css";
 @import "../blocks/page.css";
+@import "../blocks/header.css";
+@import "../blocks/profile.css";
+@import "../blocks/cards.css";
+@import "../blocks/content.css";
+@import "../blocks/footer.css";
+@import "../blocks/card.css";
 
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+}

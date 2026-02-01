@@ -1,21 +1,34 @@
 # Project 3: Spots
 
-### Overview  
+### Overview
 
-* Intro  
-* Figma  
-* Images  
-  
+- Intro
+- Figma
+- Images
+- Link to Github Pages
+- Link to Video Description
+
 **Intro**
-  
-This project is made so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.  
-  
-**Figma**  
-  
-* [Link to the project on Figma](https://www.figma.com/file/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project-%E2%80%94-Spots?type=design&node-id=2%3A60&mode=design&t=afgNFybdorZO6cQo-1)
-  
-**Images**  
-  
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-  
-Good luck and have fun!
+
+This project is called "Spots". This project is a simple responsive inferace that displays a user's profile and pictures they've upload for other uses to "favorite". A user is also able to edit their profile and upload a new picture with the "New post" button.
+
+**Tech Stack**
+-HTML
+-CSS
+-Responsive Design
+
+**Figma**
+
+- [Link to the project on Figma](https://www.figma.com/file/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project-%E2%80%94-Spots?type=design&node-id=2%3A60&mode=design&t=afgNFybdorZO6cQo-1)
+
+**Images**
+
+![Figma design of desktop view - 1440px](<Spots App 1440px-1.png>)
+![Figma deisng of mobile view ](<Spots App Mobile Version.png>)
+
+**Link to Github Pages**
+This project is deployed to Github Pages
+
+Deploymeny link:
+
+**Link to Video Description**

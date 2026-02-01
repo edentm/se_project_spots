@@ -1,0 +1,69 @@
+.card {
+width: 100%;
+max-width: 413px;
+list-style: none;
+margin:0;
+padding: 0;
+
+}
+
+
+
+.card__image {
+width: 413px;
+height: 413px;
+object-fit: cover;
+display: block;
+border-radius: 10px;
+}
+
+.card__title {
+  font-size: 20px;
+  font-weight: 500;
+
+}
+
+.card__like-button {
+background-image: url(../images/Like\ Icon.svg);
+margin-left: auto;
+width: 23px;
+height: 20px;
+border: none;
+background-color: transparent;
+}
+
+.card__like-button:hover {
+background-image: url(../images/Like\ Icon\ -\ Hover\ State.png);
+border: none;
+background-color: transparent;
+
+
+}
+
+.card__subheader {
+display:flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+width: 413px;
+text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden;
+}
+
+
+@media screen and (max-width: 627px){
+ .card {
+    width: 288px;
+  }
+
+  .card__image {
+    width: 288px;
+    height: 288px;
+  }
+
+  .card__subheader {
+    width: 288px;
+  }
+
+}
