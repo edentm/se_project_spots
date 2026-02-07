@@ -29,6 +29,6 @@ This project is called "Spots". This project is a simple responsive inferace tha
 **Link to Github Pages**
 This project is deployed to Github Pages
 
-Deploymeny link:
+Deployment link:
 
 **Link to Video Description**

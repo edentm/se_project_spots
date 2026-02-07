@@ -14,17 +14,19 @@ width: 413px;
 height: 413px;
 object-fit: cover;
 display: block;
-border-radius: 10px;
+border-radius: 8px;
+margin-bottom: 12px;
 }
 
 .card__title {
   font-size: 20px;
   font-weight: 500;
+  margin: 0;
 
 }
 
 .card__like-button {
-background-image: url(../images/Like\ Icon.svg);
+background-image: url(../images/Like_Icon.svg);
 margin-left: auto;
 width: 23px;
 height: 20px;
@@ -33,7 +35,7 @@ background-color: transparent;
 }
 
 .card__like-button:hover {
-background-image: url(../images/Like\ Icon\ -\ Hover\ State.png);
+background-image: url(../images/Like_Icon_Hover_State.png);
 border: none;
 background-color: transparent;
 
