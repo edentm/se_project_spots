@@ -29,6 +29,8 @@ This project is called "Spots". This project is a simple responsive inferace tha
 **Link to Github Pages**
 This project is deployed to Github Pages
 
-Deployment link:
+Deployment link: https://edentm.github.io/se_project_spots/
 
 **Link to Video Description**
+
+Loom video link: https://www.loom.com/share/fe18742f12df4eec8a1e0c337b482e66
