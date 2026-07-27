@@ -87,6 +87,42 @@
     <footer class="footer page__section">
       <p> 2023 © Spots </p>
       </footer>
-</div>
+      <div class="modal">
+        <div class="modal__container">
+          <div class="modal__row">
+            <h2 class="modal__title"> New post </h2>
+            <button type="button" class="modal__close-btn"> X </button>
+          </div>
+          <form class="modal__form">
+            <label for="profile-name-input" class="modal__label">
+              Image link
+            <input id="link-name-input" type="text" class="modal__input" placeholder="Paste a link to the picture">
+            </label>
+            <label for="caption-description-input" class="modal__label">   Caption
+            <input id="caption" type="text" class="modal__input" placeholder="Type your caption">
+            </label>
+          <button class="modal__submit-btn">Save</button>
+          </form>
+        </div>
+      </div>
+     <div class="modal">
+      <div class="modal__container">
+        <div class="modal__row">
+          <h2 class="modal__title"> Edit Profile</h2>
+            <button type="button" class="modal__close-btn"> X </button>
+            </div>
+            <form class="modal__form">
+              <label for="profile-name-input" class="modal__label">
+                Name
+              <input id="profile-name-input" type="text" class="modal__input" placeholder="Type your name">
+              </label>
+
+              <label for="profile-description-input" class="modal__label"> Description
+              <input id="profile-description-detail-input" type="text" class="modal__input" placeholder="Describe yourself">
+              </label>
+            <button class="modal__submit-btn">Save</button>
+            </form>
+        </div>
+  </div>
 </body>
 </html>
