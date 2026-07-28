@@ -16,10 +16,6 @@
   visibility: visible;
 }
 
-.modal_is-closed {
-  visibility: hidden;
-}
-
 .modal__container {
   border-radius: 8px;
   max-width: 730px;
