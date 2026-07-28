@@ -1,128 +1,177 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name = "description" content = "Website for Spots">
-  <meta name = "author" content ="Eden T.">
-  <meta name="description" content="Spots photo website">
-  <link rel="stylesheet" href="pages/index.css">
-  <link rel="stylesheet" href="fonts/fonts.css">
-  <link rel="icon" href ="favicon.ico">
-  <title>Spots</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Spots photo website" />
+    <meta name="author" content="Eden T." />
+    <link rel="stylesheet" href="pages/index.css" />
+    <link rel="icon" href="favicon.ico" />
+    <title>Spots</title>
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <img src="./images/Logo.svg" alt="Spots logo" class="header__logo" />
+      </header>
+      <main class="content">
+        <section class="profile page__section">
+          <img
+            src="images/avatar.jpg"
+            alt="Photo of Bessie Coleman Smiling"
+            class="profile__avatar"
+          />
+          <div class="profile__column">
+            <h1 class="profile__name">Bessie Coleman</h1>
+            <p class="profile__description">Civil Aviator</p>
+            <button type="button" class="profile__edit-button">
+              <img src="images/Pencil.svg" alt="Icon of a pencil" /> Edit
+              Profile
+            </button>
+          </div>
+          <button type="button" class="profile__add-button">
+            <img src="images/Plus.svg" alt="Icon of a plus sign" /> New Post
+          </button>
+        </section>
 
-</head>
-<body>
-<div class="page">
-    <header class="header">
-      <img src="./images/Logo.svg" alt="Spots logo" class="header__logo">
-    </header>
-    <main class="content">
-      <section class="profile page__section">
-        <img src="images/avatar.jpg" alt="Photo of Bessie Coleman Smiling" class="profile__avatar">
-        <div class = "profile__column">
-        <h1 class ="profile__name"> Bessie Coleman </h1>
-        <p class ="profile__description"> Civil Aviator</p>
-        <button type="button" class="profile__edit-button">
-          <img src="images/Pencil.svg" alt="Icon of a pencil"> Edit Profile
-        </button>
-        </div>
-         <button type="button" class="profile__add-button">
-          <img src="images/Plus.svg" alt="Icon of a plus sign"> New Post
-        </button>
-      </section>
+        <section class="cards page__section">
+          <ul class="cards__list">
+            <li class="card">
+              <img
+                src="images/1-photo-by-moritz-feldmann-from-pexels.jpg"
+                alt="Photo from inside a cabin looking at the window to a home on a snowy mountain"
+                class="card__image"
+              />
+              <div class="card__subheader">
+                <h2 class="card__title">Val Thorens</h2>
+                <button type="button" class="card__like-button"></button>
+              </div>
+            </li>
+            <li class="card">
+              <img
+                src="images/2-photo-by-ceiline-from-pexels.jpg"
+                alt="Photo of a restaurant with a green terrance and outdoor seating"
+                class="card__image"
+              />
 
-      <section class="cards page__section">
-       <ul class="cards__list">
-        <li class="card">
-          <img src="images/1-photo-by-moritz-feldmann-from-pexels.jpg" alt="Photo from inside a cabin looking at the window to a home on a snowy mountain" class="card__image"/>
-          <div class="card__subheader">
-            <h2 class="card__title"> Val Thorens </h2>
-            <button type="button" class="card__like-button"></button>
-        </div>
-        </li>
-        <li class="card">
-          <img src="images/2-photo-by-ceiline-from-pexels.jpg" alt="Photo of a restaurant with a green terrance and outdoor seating" class="card__image">
+              <div class="card__subheader">
+                <h2 class="card__title">Restaurant terrace</h2>
+                <button type="button" class="card__like-button"></button>
+              </div>
+            </li>
+            <li class="card">
+              <img
+                src="images/3-photo-by-tubanur-dogan-from-pexels.jpg"
+                alt="Photo taken from above capturing people sitting in various tables outside"
+                class="card__image"
+              />
 
-        <div class="card__subheader">
-            <h2 class="card__title"> Restaurant terrace </h2>
-            <button type="button" class="card__like-button"></button>
-        </div>
-        </li>
-        <li class="card">
-          <img src="images/3-photo-by-tubanur-dogan-from-pexels.jpg" alt="Photo taken from above capturing people sitting in various tables outside" class="card__image">
+              <div class="card__subheader">
+                <h2 class="card__title">An outdoor cafe</h2>
+                <button type="button" class="card__like-button"></button>
+              </div>
+            </li>
+            <li class="card">
+              <img
+                src="images/4-photo-by-maurice-laschet-from-pexels.jpg"
+                alt="Photo of long bridge build over a forest with trees beneath it"
+                class="card__image"
+              />
 
-        <div class="card__subheader">
-            <h2 class="card__title"> An outdoor cafe </h2>
-            <button type="button" class="card__like-button"></button>
-        </div>
-        </li>
-         <li class="card">
-          <img src="images/4-photo-by-maurice-laschet-from-pexels.jpg" alt="Photo of long bridge build over a forest with trees beneath it" class="card__image">
+              <div class="card__subheader">
+                <h2 class="card__title">A very long bridge</h2>
+                <button type="button" class="card__like-button"></button>
+              </div>
+            </li>
+            <li class="card">
+              <img
+                src="images/5-photo-by-van-anh-nguyen-from-pexels.jpg"
+                alt="Long tunnel surrounded by windows where light streams in"
+                class="card__image"
+              />
 
-        <div class="card__subheader">
-            <h2 class="card__title"> A very long bridge </h2>
-            <button type="button" class="card__like-button"></button>
-        </div>
-        </li>
-         <li class="card">
-          <img src="images/5-photo-by-van-anh-nguyen-from-pexels.jpg" alt="Long tunnel surrounded by windows where light streams in" class="card__image">
+              <div class="card__subheader">
+                <h2 class="card__title">Tunnel with morning light</h2>
+                <button type="button" class="card__like-button"></button>
+              </div>
+            </li>
+            <li class="card">
+              <img
+                src="images/6-photo-by-moritz-feldmann-from-pexels.jpg"
+                alt=" Photo of a wooden cabin in the snow"
+                class="card__image"
+              />
 
-        <div class="card__subheader">
-            <h2 class="card__title"> Tunnel with morning light </h2>
-            <button type="button" class="card__like-button"></button>
-        </div>
-        </li>
-         <li class="card">
-          <img src="images/6-photo-by-moritz-feldmann-from-pexels.jpg" alt=" Photo of a wooden cabin in the snow" class="card__image">
-
-        <div class="card__subheader">
-            <h2 class="card__title"> Mountain house </h2>
-            <button type="button" class="card__like-button"></button>
-        </div>
-        </li>
-       </ul>
-      </section>
-    </main>
-    <footer class="footer page__section">
-      <p> 2023 © Spots </p>
+              <div class="card__subheader">
+                <h2 class="card__title">Mountain house</h2>
+                <button type="button" class="card__like-button"></button>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </main>
+      <footer class="footer page__section">
+        <p>2023 © Spots</p>
       </footer>
       <div class="modal">
         <div class="modal__container">
           <div class="modal__row">
-            <h2 class="modal__title"> New post </h2>
-            <button type="button" class="modal__close-btn"> X </button>
+            <h2 class="modal__title">New post</h2>
+            <button type="button" class="modal__close-btn">X</button>
           </div>
           <form class="modal__form">
-            <label for="profile-name-input" class="modal__label">
+            <label for="link-name-input" class="modal__label">
               Image link
-            <input id="link-name-input" type="text" class="modal__input" placeholder="Paste a link to the picture">
+              <input
+                id="link-name-input"
+                type="text"
+                class="modal__input"
+                placeholder="Paste a link to the picture"
+              />
             </label>
-            <label for="caption-description-input" class="modal__label">   Caption
-            <input id="caption" type="text" class="modal__input" placeholder="Type your caption">
+            <label for="caption" class="modal__label">
+              Caption
+              <input
+                id="caption"
+                type="text"
+                class="modal__input"
+                placeholder="Type your caption"
+              />
             </label>
-          <button class="modal__submit-btn">Save</button>
+            <button class="modal__submit-btn">Save</button>
           </form>
         </div>
       </div>
-     <div class="modal">
-      <div class="modal__container">
-        <div class="modal__row">
-          <h2 class="modal__title"> Edit Profile</h2>
-            <button type="button" class="modal__close-btn"> X </button>
-            </div>
-            <form class="modal__form">
-              <label for="profile-name-input" class="modal__label">
-                Name
-              <input id="profile-name-input" type="text" class="modal__input" placeholder="Type your name">
-              </label>
+      <div class="modal">
+        <div class="modal__container">
+          <div class="modal__row">
+            <h2 class="modal__title">Edit Profile</h2>
+            <button type="button" class="modal__close-btn">X</button>
+          </div>
+          <form class="modal__form">
+            <label for="profile-name-input" class="modal__label">
+              Name
+              <input
+                id="profile-name-input"
+                type="text"
+                class="modal__input"
+                placeholder="Type your name"
+              />
+            </label>
 
-              <label for="profile-description-input" class="modal__label"> Description
-              <input id="profile-description-detail-input" type="text" class="modal__input" placeholder="Describe yourself">
-              </label>
+            <label for="profile-description-detail-input" class="modal__label">
+              Description
+              <input
+                id="profile-description-detail-input"
+                type="text"
+                class="modal__input"
+                placeholder="Describe yourself"
+              />
+            </label>
             <button class="modal__submit-btn">Save</button>
-            </form>
+          </form>
         </div>
-  </div>
-</body>
+      </div>
+    </div>
+  </body>
 </html>
